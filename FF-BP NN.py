@@ -7,7 +7,7 @@ def sigmoid(x):
 def sigmoid_derivative_output(o):
     return o * (1 - o)
 
-class SimpleNN:
+class FF_BP:
     def __init__(self):
         self.w1 = random.uniform(-0.5, 0.5)
         self.w2 = random.uniform(-0.5, 0.5)
@@ -71,7 +71,7 @@ class SimpleNN:
             error2 = o2 - target2
             print(f"Epoch {i + 1}, Output: ({o1}, {o2}), Error: ({error1}, {error2})")
 
-nn = SimpleNN()
+nn = FF_BP()
 x1, x2 = 0.1, 0.2
 target1, target2 = 0.5, 0.3
 nn.train(x1, x2, target1, target2, 100)
