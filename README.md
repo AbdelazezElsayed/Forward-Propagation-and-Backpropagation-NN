@@ -10,7 +10,7 @@ This repository contains a Feed Forward Neural Network implemented in Python wit
 - Backpropagation to adjust weights and biases
 
 ## Usage
-1. Open `FF-BP NN.py` in Jupyter Notebook.
+1. Open `FF-BP NN.py` in VS Code.
 2. Run all cells to train the network with example inputs (0.1, 0.2) and targets (0.5, 0.3).
 3. Outputs show weights, biases, inputs, and final results after 10 epochs.
 
